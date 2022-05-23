@@ -14,6 +14,6 @@ app.use(express.static('public'));
 app.use('/', htmlRoutes);
 
 //API routes
-app.use('/api',apiRoutes);
+app.use('/api', apiRoutes);
 
 app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`))
