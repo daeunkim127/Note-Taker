@@ -2,14 +2,25 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daeunkim127/Note-Taker.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daeunkim127/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/daeunkim127/Note-Taker#readme",
   "dependencies": {
-    "express": "^4.16.4",
-    "uuid": "^8.3.2"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "uuid": "^3.4.0"
   }
 }
