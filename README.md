@@ -19,7 +19,7 @@ When you click the 'Get Started' button, it shows a new page. You can save notes
 
 ## Demonstration
 
-![animation](./images/demo.gif)
+![animation](/Images/demo.gif)
 
 
 ## Links
